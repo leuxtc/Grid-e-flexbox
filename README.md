@@ -26,8 +26,7 @@ CONTAINER
 
 <ul>
 <li>display: grid;</li>
-    <li>grid-template-columns;</li>
-    <li>grid-template-rows;</li>
+    <li>grid-template-columns;<li>grid-template-rows;</li></li>
 <li>grid-gap</li>
     <li>grid-row-gap</li>
     <li>grid-column-gap</li>
