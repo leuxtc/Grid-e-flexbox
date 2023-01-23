@@ -9,8 +9,9 @@
 </head>
 <body>
     <header>
-        <div class="cabecalho">
+        <div class="header">
             <div class="logo">Logo</div>
+            <input type="search" name="search" class="search" id="isearch" placeholder="Pesquise aqui">
             <ul class="menu">
                 <li><a href="#">Sobre</a></li>
                 <li><a href="#">Carrinho</a></li>
@@ -20,7 +21,7 @@
     </header>
     <main>
         <a href="index.html"><button class="btn">Voltar</button></a>
-        <div class="compra">
+        <div class="buying">
             <div class="item_pequeno">
                 <img  class="item" id="item_2" src="https://images.tcdn.com.br/img/img_prod/467173/bicicleta_eletrica_aro_29_aluminio_bateria_de_litio_tecultra_32_1_c892e86ed7906d1f2494b3954c01d293.jpg" alt="Bicicleta">
                 <img  class="item" id="item_3" src="https://static.netshoes.com.br/produtos/bicicleta-29-aluminum-raider-24-marchas-index-freio-a-disco/02/89V-0000-002/89V-0000-002_zoom1.jpg?ts=1657536936&ims=544x" alt="Bicicleta">
@@ -31,15 +32,20 @@
                 <img id="item_1" src="https://static.netshoes.com.br/produtos/bicicleta-29-aluminum-raider-24-marchas-index-freio-a-disco/02/89V-0000-002/89V-0000-002_zoom1.jpg?ts=1657536936&ims=544x" alt="Bicicleta">
             </div>
             <div class="info">
-                <h1 class="nome">Bicicleta 29 Aluminum Raider 24 Marchas Index Freio a Disco - Preto+Vermelho</h1>
+                <h1 class="name">Bicicleta 29 Aluminum Raider 24 Marchas Index Freio a Disco - Preto+Vermelho</h1>
                 <p>Frete Grátis</p>
-                <h2 class="preco">R$ 1.999,00
-                    R$ 1.039,00
-                    até 10x de R$ 103,90 sem juros</h2>
-                <img src="" alt="Bicicleta-Preta">
-                <img src="" alt="Bicicleta-Azul">
-                <img src="" alt="Bicicleta-Vermelha">
-                <img src="" alt="Bicicleta-Verde">
+                <div class="price">
+                    <p>R$ 1.999,00</p>
+                    <h2>R$ 1.039,00</h2>
+                    <p>até 10x de R$ 103,90 sem juros</p>
+                </div>
+                <div class="img">
+                    <img class="colors" src="https://static.netshoes.com.br/produtos/bicicleta-29-aluminum-raider-24-marchas-index-freio-a-disco/02/89V-0000-002/89V-0000-002_zoom1.jpg?ts=1657536936&ims=544x" alt="Bicicleta-Preta">
+                    <img class="colors" src="https://static.netshoes.com.br/produtos/bicicleta-29-aluminum-raider-24-marchas-index-freio-a-disco/02/89V-0000-002/89V-0000-002_zoom1.jpg?ts=1657536936&ims=544x" alt="Bicicleta-Azul">
+                    <img class="colors" src="https://static.netshoes.com.br/produtos/bicicleta-29-aluminum-raider-24-marchas-index-freio-a-disco/02/89V-0000-002/89V-0000-002_zoom1.jpg?ts=1657536936&ims=544x" alt="Bicicleta-Vermelha">
+                    <img class="colors" src="https://static.netshoes.com.br/produtos/bicicleta-29-aluminum-raider-24-marchas-index-freio-a-disco/02/89V-0000-002/89V-0000-002_zoom1.jpg?ts=1657536936&ims=544x" alt="Bicicleta-Verde">
+                </div>
+                <button type="submit" class="btn" id="buy">Buy</button>
             </div>
         </div>
     </main>

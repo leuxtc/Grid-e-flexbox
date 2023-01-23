@@ -12,7 +12,7 @@ body, html {
     background-color: rgb(199, 199, 199);
 }
 
-.cabecalho {
+.header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -33,13 +33,21 @@ body, html {
     padding: 10px;
 }
 
+.search {
+    background-color: #d6deed;
+    width: 50vw;
+    border-radius: 30px;
+    padding: 10px;
+    border: none;
+}
+
 main {
     padding: 20px;
 }
 
 .btn {
     transition: .3s;
-    padding: 10px 20px;
+    padding: 6px 20px;
     color: #d6deed;
     background-color: #1d1e20;
     cursor: pointer;
@@ -50,7 +58,7 @@ main {
     background-color: #515358;
 }
 
-.compra {
+.buying {
     display: grid;
     grid-template-columns: 70px 3fr 4fr; 
     gap: 20px;
@@ -58,5 +66,19 @@ main {
 }
 
 .item {
-    max-width: 70px;
+    max-width: 60px;
+}
+
+h1,
+.price {
+    margin-bottom: 30px;
+}
+
+.img {
+    display: flex;
+    gap: 20px;
+}
+
+.colors {
+    max-width: 90px;
 }
