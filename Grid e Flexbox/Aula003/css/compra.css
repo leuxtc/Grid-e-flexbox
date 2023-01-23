@@ -50,17 +50,13 @@ main {
     background-color: #515358;
 }
 
-
 .compra {
-    margin-top: 50px;
     display: grid;
-    grid-template-columns: 100px 1fr;
-    gap: 10px;
+    grid-template-columns: 70px 3fr 4fr; 
+    gap: 20px;
+    margin-top: 20px;
 }
 
-#item_2,
-#item_3,
-#item_4 {
-    grid-column: 1 / 3;
-    width: 100%;
+.item {
+    max-width: 70px;
 }
