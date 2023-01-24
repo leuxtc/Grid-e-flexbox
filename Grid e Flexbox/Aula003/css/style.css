@@ -153,6 +153,7 @@ img {
 .grid3-item img {
     grid-column: 1;
     grid-row: 1/3;
+    align-self: flex-end;
 }
 
 .grid3-item p {
@@ -161,4 +162,5 @@ img {
     color: white;
     grid-column: 1;
     grid-row: 2;
+    align-self: flex-end;
 }
