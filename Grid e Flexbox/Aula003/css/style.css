@@ -131,3 +131,34 @@ img {
         margin: 0 10px;
     }
 }
+
+/* CSS - Grid 3 */
+
+.grid3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.grid3-item:nth-child(1) {
+    grid-row: 1 / 3;
+}
+
+.grid3-item {
+    display: grid;
+}
+
+.grid3-item img {
+    grid-column: 1;
+    grid-row: 1/3;
+}
+
+.grid3-item p {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 10px;
+    color: white;
+    grid-column: 1;
+    grid-row: 2;
+}
